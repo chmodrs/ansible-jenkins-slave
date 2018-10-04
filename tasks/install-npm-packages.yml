@@ -1,0 +1,32 @@
+---
+
+- name: Install Cordova
+  npm:
+    name: cordova
+    version: 7.1.0
+    global: yes
+
+- name: Install Bower
+  npm:
+    name: bower
+    version: 1.8.4
+    global: yes
+
+- name: Install Gulp Cli
+  npm:
+    name: gulp-cli
+    version: 2.0.1
+    global: yes
+
+- name: Install Ionic
+  npm:
+    name: ionic
+    version: 1.7.16
+    global: yes
+
+- name: Install IOS SIM
+  npm:
+    name: ios-sim
+    version: 6.1.2
+    global: yes
+

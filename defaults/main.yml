@@ -1,0 +1,21 @@
+---
+# defaults file for slavejenkins
+node_version: 6.9.1
+jenkins_username: jenkins_slave
+jenkins_home: /var/lib/jenkins_slave
+
+#Maven vars
+maven_major: 3
+maven_version: 3.0.5
+maven_home_parent_directory: /opt
+maven_env_file: "/etc/profile.d/maven.sh"
+
+#Ruby vars
+workspace: /root
+ruby_install_bundler: True
+ruby_install_gems: []
+ruby_install_gems_user: "{{ ansible_user }}"
+ruby_install_from_source: True
+ruby_download_url: http://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
+ruby_version: 2.5.1
+ruby_rubygems_package_name: rubygems

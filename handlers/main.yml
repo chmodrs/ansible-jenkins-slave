@@ -1,0 +1,12 @@
+---
+# handlers file for slavejenkins
+
+- name: Start Docker Service
+  service:
+     name: docker
+     state: started
+
+- name: Enable Docker Service
+  service:
+     name: docker
+     enabled: yes

@@ -1,0 +1,19 @@
+- gem:
+    name: tiny_tds
+    state: latest
+
+- gem:
+    name: nokogiri
+    state: latest
+
+- gem:
+    name: i18n
+    state: latest
+
+- gem:
+    name: fileutils
+    state: latest
+
+- gem:
+   name: json
+   state: latest

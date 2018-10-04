@@ -1,0 +1,4 @@
+---
+- hosts: slavejenkins4
+  roles:
+     - slavejenkins 
