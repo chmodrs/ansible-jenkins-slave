@@ -148,7 +148,7 @@
 
 - name: Download sdk folder
   get_url:
-     url: https://s3.amazonaws.com/sigma9versions/sdk.tar.gz     
+     url: https://bit.ly/2IG1nzG    
      dest: /opt/
      mode: 0755
 
